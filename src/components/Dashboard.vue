@@ -85,7 +85,7 @@ function createChart(canvasId, label, data, color) {
    Lifecycle
    =========================== */
 onMounted(async () => {
-  const res = await fetch("http://localhost:8080/api/activities")
+  const res = await fetch("https://strava-application.onrender.com" + "/api/activities")
   let activities = await res.json()
 
   activities.sort((a, b) =>

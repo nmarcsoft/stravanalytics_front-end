@@ -1,6 +1,6 @@
 <script setup>
 const loginWithStrava = () => {
-  window.location.href = "http://localhost:8080/auth/login";
+  window.location.href = "https://strava-application.onrender.com" + "/auth/login";
 };
 </script>
 
