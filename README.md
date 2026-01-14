@@ -36,3 +36,6 @@ npm run dev
 ```sh
 npm run build
 ```
+
+### This project is deployed with Render
+https://stravanalytics-front-end.onrender.com
